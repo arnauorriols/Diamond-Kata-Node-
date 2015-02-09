@@ -1,0 +1,24 @@
+{
+  "name": "diamond_kata",
+  "version": "0.0.0",
+  "description": "Diamon Kata project with TDD",
+  "main": "diamon_kata_v2.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u tdd --harmony test_diamond_kata.js",
+    "start": "npm test && node --harmony demo.js"
+  },
+  "keywords": [
+    "Kata",
+    "TDD"
+  ],
+  "author": "Arnau Orriols",
+  "license": "BSD",
+  "dependencies": {
+    "mocha": "~2.1.0",
+    "should": "~4.6.2",
+    "benchmark": "~1.0.0"
+  }
+}
